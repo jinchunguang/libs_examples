@@ -1,0 +1,7 @@
+127.0.0.1 - - [01/aug/2019:10:56:21 +0800] "post /wages/index http/1.1" 200 85010 "-" "postmanruntime/7.4.0"
+127.0.0.1 - - [01/aug/2019:10:56:24 +0800] "post /wages/index http/1.1" 200 85010 "-" "postmanruntime/7.4.0"
+127.0.0.1 - - [01/aug/2019:10:56:26 +0800] "post /wages/index http/1.1" 200 85010 "-" "postmanruntime/7.4.0"
+127.0.0.1 - - [01/aug/2019:10:56:28 +0800] "post /wages/index http/1.1" 200 85010 "-" "postmanruntime/7.4.0"
+127.0.0.1 - - [01/aug/2019:10:57:08 +0800] "post /wages/index http/1.1" 200 85010 "-" "postmanruntime/7.4.0"
+127.0.0.1 - - [01/aug/2019:10:57:11 +0800] "post /wages/index http/1.1" 200 85017 "-" "postmanruntime/7.4.0"
+127.0.0.1 - - [01/aug/2019:10:57:13 +0800] "post /wages/index http/1.1" 200 85017 "-" "postmanruntime/7.4.0"

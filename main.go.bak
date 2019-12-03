@@ -1,0 +1,28 @@
+package main
+
+import (
+	"fmt"
+	//"sync"
+	"time"
+)
+//var wg sync.WaitGroup
+var (
+	a string
+	done bool
+)
+
+func setup()  {
+	time.Sleep(time.Second*10)
+	a="hello world"
+	done=true
+}
+
+func main() {
+	//wg.Wait()
+	go setup()
+	for !done {
+
+	}
+	fmt.Println(a)
+
+}
