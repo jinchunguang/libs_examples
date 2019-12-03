@@ -10,7 +10,7 @@ import (
 )
 
 // 钉钉机器人webhook
-var url = "https://oapi.dingtalk.com/robot/send?access_token=daec7a952d07b22295690880e6af06c2412dcc2ca319429bbf93c349c22cb76c"
+var url = ""
 var textJsonStr, linkJsonStr, markdownJsonStr, actionCardJsonStr, actionCardBtnJsonStr, feedCardJsonStr = "", "", "", "", "", ""
 
 /*
