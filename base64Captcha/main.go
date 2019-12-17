@@ -1,5 +1,5 @@
 // example of HTTP server that uses the captcha package.
-package base64Captcha
+package main
 
 import (
 	"fmt"
