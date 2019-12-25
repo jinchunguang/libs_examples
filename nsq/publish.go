@@ -8,6 +8,7 @@ import (
 var err error
 
 func main() {
+
 	config := nsq.NewConfig()
 
 	producer, _ := nsq.NewProducer("127.0.0.1:4150", config)
@@ -17,9 +18,9 @@ func main() {
 		return
 	}
 	defer producer.Stop()
+
 	topicName := "test-topic"
-	count := 3
-	for i := 1; i < count; i++ {
+	for i := 1; i < 5; i++ {
 		err = producer.Publish(topicName, []byte("hello world!"))
 		if err != nil {
 			log.Fatal(err)
