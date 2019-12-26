@@ -1,0 +1,2 @@
+[biz] 2019/12/26 10:50:28.730197 /home/jinchunguang/work/golang/libs_examples/log/fileLog/main.go:26: 这是一条文件日志。
+[biz] 2019/12/26 10:50:28.730341 /home/jinchunguang/work/golang/libs_examples/log/fileLog/main.go:27: LocalInfo 这是一条文件日志。

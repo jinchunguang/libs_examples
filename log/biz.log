@@ -1,0 +1,11 @@
+[SRV] 2019/12/26 10:47:27.994189 /home/jinchunguang/work/golang/libs_examples/log/main.go:56: 这是一条很普通的日志。
+[biz] 2019/12/26 10:47:27.994205 /home/jinchunguang/work/golang/libs_examples/log/main.go:58: 这是一条很普通的日志。
+[SRV] 2019/12/26 10:47:30.242188 /home/jinchunguang/work/golang/libs_examples/log/main.go:56: 这是一条很普通的日志。
+[biz] 2019/12/26 10:47:30.242215 /home/jinchunguang/work/golang/libs_examples/log/main.go:58: 这是一条很普通的日志。
+[biz] 2019/12/26 10:48:13.210895 /home/jinchunguang/work/golang/libs_examples/log/main.go:57: 这是一条文件日志。
+[biz] 2019/12/26 10:48:28.291219 main.go:57: 这是一条文件日志。
+[biz] 2019/12/26 10:48:28.647561 main.go:57: 这是一条文件日志。
+[biz] 2019/12/26 10:48:28.990317 main.go:57: 这是一条文件日志。
+[biz] 2019/12/26 10:48:29.297652 main.go:57: 这是一条文件日志。
+[biz] 2019/12/26 10:48:29.543566 main.go:57: 这是一条文件日志。
+[biz] 2019/12/26 10:48:29.770235 main.go:57: 这是一条文件日志。

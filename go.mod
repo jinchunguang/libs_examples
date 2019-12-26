@@ -23,6 +23,9 @@ require (
 	github.com/go-ego/gse v0.0.0-20191212182315-b30156ea952e // indirect
 	github.com/go-ego/re v0.0.0-20180729124648-a578f59c3f34 // indirect
 	github.com/go-playground/universal-translator v0.17.0 // indirect
+	github.com/go-redis/redis v6.15.6+incompatible // indirect
+	github.com/go-redis/redis/v7 v7.0.0-beta.4 // indirect
+	github.com/go-sql-driver/mysql v1.4.1 // indirect
 	github.com/go-vgo/gt v0.0.0-20191129122048-b43b4ceeec26 // indirect
 	github.com/googollee/go-socket.io v1.4.2 // indirect
 	github.com/gopherjs/gopherjs v0.0.0-20191106031601-ce3c9ade29de // indirect
@@ -62,6 +65,7 @@ require (
 	golang.org/x/image v0.0.0-20191009234506-e7c1f5e7dbb8 // indirect
 	golang.org/x/sys v0.0.0-20191220220014-0732a990476f // indirect
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4 // indirect
+	google.golang.org/appengine v1.6.5 // indirect
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 	gopkg.in/go-playground/validator.v9 v9.30.2 // indirect
 	gopkg.in/yaml.v2 v2.2.7 // indirect
