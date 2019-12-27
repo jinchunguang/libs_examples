@@ -1,4 +1,0 @@
-{"level":"info","time":"2019-07-31T14:57:07.463+0800","caller":"/home/jinchunguang/go-code/learn/zap/main2.go:43","msg":"log 初始化成功","serviceName":"spikeProxy"}
-{"level":"info","time":"2019-07-31T14:57:07.463+0800","caller":"/home/jinchunguang/go-code/learn/zap/main2.go:45","msg":"无法获取网址","serviceName":"spikeProxy","url":"http://www.baidu.com","attempt":3,"backoff":1}
-2019-07-31T14:57:56.014+0800	info	/home/jinchunguang/go-code/learn/zap/main2.go:43	log 初始化成功	{"serviceName": "spikeProxy"}
-2019-07-31T14:57:56.014+0800	info	/home/jinchunguang/go-code/learn/zap/main2.go:45	无法获取网址	{"serviceName": "spikeProxy", "url": "http://www.baidu.com", "attempt": 3, "backoff": 1}
