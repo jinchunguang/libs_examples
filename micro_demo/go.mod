@@ -16,7 +16,7 @@ require (
 	github.com/lucas-clemente/quic-go v0.14.1 // indirect
 	github.com/marten-seemann/qtls v0.5.0 // indirect
 	github.com/micro/go-micro v1.18.0
-	github.com/micro/go-plugins v1.5.1 // indirect
+	github.com/micro/go-plugins v1.5.1
 	github.com/miekg/dns v1.1.26 // indirect
 	github.com/nats-io/jwt v0.3.2 // indirect
 	go.uber.org/atomic v1.5.1 // indirect
