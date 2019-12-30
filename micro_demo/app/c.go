@@ -9,7 +9,9 @@ import (
 
 func main() {
     // 定义服务，可以传入其他可选参数
-    service := micro.NewService(micro.Name("greeter.client"))
+    service := micro.NewService(
+        micro.Name("greeter.client"),
+        )
     service.Init()
 
     // 创建新的客户端
