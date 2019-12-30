@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+
 	encoderConfig := zapcore.EncoderConfig{
 		TimeKey:        "time",
 		LevelKey:       "level",

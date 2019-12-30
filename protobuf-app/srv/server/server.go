@@ -29,7 +29,6 @@ func main() {
 
 func processing(conn net.Conn) {
 
-
     // 延迟关闭
     defer conn.Close()
     // 缓冲
