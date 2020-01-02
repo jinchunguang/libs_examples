@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- CSS更改包含元素的外观 -->
+    <style>
+        .pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
+    </style>
+</head>
+<body>
+<!--创建一个保存PDF的容器-->
+<div id="example1"></div>
+</body>
+<!--嵌入哪个PDF-->
+<script src="https://cdn.bootcss.com/pdfobject/2.1.1/pdfobject.js"></script>
+<script>PDFObject.embed("ali_java.pdf", "#example1");</script>
+</html>
