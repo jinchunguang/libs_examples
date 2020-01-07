@@ -33,7 +33,6 @@ func showFriendsHandler(wr http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-    http.HandleFunc("/", echo)
     http.HandleFunc("/hello", hello)
     err := http.ListenAndServe(":9007", nil)
     if err != nil {

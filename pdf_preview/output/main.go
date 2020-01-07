@@ -23,7 +23,7 @@ func index(rw http.ResponseWriter, r *http.Request) {
 }
 func zipHandler(rw http.ResponseWriter, r *http.Request) {
     rw.Header().Set("Content-Type", "application/pdf")
-    f, err := os.Open("./ali_java.pdf");
+    f, err := os.Open("./sample.pdf");
     defer f.Close()
     if err == nil {
         for {

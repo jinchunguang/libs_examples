@@ -8,15 +8,15 @@ import (
 func main()  {
 	// 读取文件
 	cfg, _ := goconfig.LoadConfigFile("conf.ini")
-	fmt.Println(cfg)
+	// fmt.Println(cfg)
 
 	// 读取key
 	value, _ := cfg.GetValue("database", "host")
 	fmt.Println(value)
 
 	// 读取注释
-	comment := cfg.GetSectionComments("database")
-	fmt.Println(comment)
+	// comment := cfg.GetSectionComments("database")
+	// fmt.Println(comment)
 
 	// 读取db配置
 	sec, _ := cfg.GetSection("database")

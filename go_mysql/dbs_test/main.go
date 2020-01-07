@@ -59,12 +59,12 @@ func queryRowDemo() {
     sqlStr := "select id, name, age from user where id=?"
     var u user
     // 非常重要：确保QueryRow之后调用Scan方法，否则持有的数据库链接不会被释放
-    err := db.QueryRow(sqlStr, 1).Scan(&u.id, &u.name, &u.age)
+    err := db.QueryRow(sqlStr, 1).Scan(&u.ID, &u.Name, &u.Age)
     if err != nil {
         fmt.Printf("scan failed, err:%v\n", err)
         return
     }
-    fmt.Printf("id:%d name:%s age:%d\n", u.id, u.name, u.age)
+    fmt.Printf("id:%d name:%s age:%d\n", u.ID, u.Name, u.Age)
 }
 
 // 多行查询
@@ -83,12 +83,12 @@ func queryMultiRowDemo() {
     // 循环读取结果集中的数据
     for rows.Next() {
         var u user
-        err := rows.Scan(&u.id, &u.name, &u.age)
+        err := rows.Scan(&u.ID, &u.Name, &u.Age)
         if err != nil {
             fmt.Printf("scan failed, err:%v\n", err)
             return
         }
-        fmt.Printf("id:%d name:%s age:%d\n", u.id, u.name, u.age)
+        fmt.Printf("id:%d name:%s age:%d\n", u.ID, u.Name, u.Age)
     }
 }
 
@@ -161,12 +161,12 @@ func prepareQueryDemo() {
     // 循环读取结果集中的数据
     for rows.Next() {
         var u user
-        err := rows.Scan(&u.id, &u.name, &u.age)
+        err := rows.Scan(&u.ID, &u.Name, &u.Age)
         if err != nil {
             fmt.Printf("scan failed, err:%v\n", err)
             return
         }
-        fmt.Printf("id:%d name:%s age:%d\n", u.id, u.name, u.age)
+        fmt.Printf("id:%d name:%s age:%d\n", u.ID, u.Name, u.Age)
     }
 }
 
