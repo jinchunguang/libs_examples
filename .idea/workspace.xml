@@ -3,182 +3,166 @@
   <component name="ChangeListManager">
     <list default="true" id="a2981279-65fd-43f1-84ee-75db487cfe30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/.buildconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base64Captcha/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/base64Captcha/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedp/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/chromedp/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compress_flate/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/compress_flate/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dingtalk/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dingtalk/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/email/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/email/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/err/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consul/service-discovery/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/consul/service-discovery/client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consul/service-discovery/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/consul/service-discovery/server/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/csv/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dingtalk/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/dingtalk/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email/emali.go" beforeDir="false" afterPath="$PROJECT_DIR$/email/emali.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/excel/go/gbt2260" beforeDir="false" afterPath="$PROJECT_DIR$/excel/go/gbt2260" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/excel/go/gbt2260/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/excel/go/gbt2260/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/main" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gin.go" beforeDir="false" afterPath="$PROJECT_DIR$/gin/gin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel/go/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/excel/go/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/exec/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expvar/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/expvar/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileSrv/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/fileSrv/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flag/nginx.go" beforeDir="false" afterPath="$PROJECT_DIR$/flag/nginx.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-rpc/01/rpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/01/rpc_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-rpc/01/rpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/01/rpc_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-rpc/01/service/HelloService.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/01/service/HelloService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-rpc/02/rpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/02/rpc_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-rpc/02/rpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/02/rpc_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-rpc/02/service02/HelloService.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/02/service02/HelloService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-rpc/03/rpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/03/rpc_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-rpc/03/service03/HelloService.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/03/service03/HelloService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-rpc/03/service_client03/HelloServiceClient.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/03/service_client03/HelloServiceClient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-rpc/04/rpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/04/rpc_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-rpc/04/rpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/04/rpc_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-rpc/04/service04/HelloService.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/04/service04/HelloService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-rpc/05/rpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/05/rpc_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-rpc/05/rpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/05/rpc_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-rpc/05/service05/HelloService.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/05/service05/HelloService.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_file/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_file/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_file/mytail" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mongo/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mongo/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_file/DocMonitoring.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_file/DocMonitoring.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_file/Fsnotify.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_file/Fsnotify.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_file/demo/file/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_file/demo/file/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_file/demo/path/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_file/demo/path/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_file/learn.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_file/learn.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_file/read/2_ReadAll.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_file/read/2_ReadAll.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_file/read/3_Read.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_file/read/3_Read.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_file/write/1_WriteFile.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_file/write/1_WriteFile.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_file/write/2_WriteString.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_file/write/2_WriteString.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_file/write/3_Writer.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_file/write/3_Writer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_mongo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_mongo/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_mysql/dbs/mysql.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_mysql/dbs/mysql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_mysql/dbs/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_mysql/dbs/user.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go_mysql/dbs_test/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_mysql/dbs_test/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/AUTHORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/appengine.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/auth.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/buffer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/collations.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/connection.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/connection_go18.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/const.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/driver.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/dsn.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/errors.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/fields.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/infile.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/packets.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/result.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/rows.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/statement.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/transaction.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/utils.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/utils_go17.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/github.com/go-sql-driver/mysql/utils_go18.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/google.golang.org/appengine/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/google.golang.org/appengine/cloudsql/cloudsql.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/google.golang.org/appengine/cloudsql/cloudsql_classic.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/google.golang.org/appengine/cloudsql/cloudsql_vm.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_mysql/vendor/modules.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_mysql/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_mysql/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_mysql/sqlx/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_mysql/sqlx/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go_redis/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_redis/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_redis/test/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_redis/test/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_strconv/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_strconv/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_template/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_template/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gob_msgpack/json/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gob_msgpack/json/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google_auth/mian.go" beforeDir="false" afterPath="$PROJECT_DIR$/google_auth/mian.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gse/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gse/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gui/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hprose/01/index.go" beforeDir="false" afterPath="$PROJECT_DIR$/hprose/01/index.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iface/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/iface/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jieba_words/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/jieba_words/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limiter/01/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limiter/01/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limiter/02/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limiter/02/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/json/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonIterator/example_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/jsonIterator/example_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonIterator/marshal/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/jsonIterator/marshal/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonIterator/unmarshal/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/jsonIterator/unmarshal/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessisbetter/Pipelined.go" beforeDir="false" afterPath="$PROJECT_DIR$/lessisbetter/Pipelined.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/dataStructure/container/heap/heap.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/dataStructure/container/heap/heap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/dataStructure/container/list/list.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/dataStructure/container/list/list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/dataStructure/container/ring/ring.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/dataStructure/container/ring/ring.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/dataStructure/sort/sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/dataStructure/sort/sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/date/date.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/date/date.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/io/bufio/Peek/Peek.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/io/bufio/Peek/Peek.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/io/bufio/ReadBytes/ReadBytes.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/io/bufio/ReadBytes/ReadBytes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/io/bufio/Split/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/io/bufio/Split/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/io/bufio/scanner/scanner.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/io/bufio/scanner/scanner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/io/byterwer/byterwer.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/io/byterwer/byterwer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/io/fmt/fmt.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/io/fmt/fmt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/io/ioutil/readDir.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/io/ioutil/readDir.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/io/multi/r/reader.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/io/multi/r/reader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/io/multi/w/write.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/io/multi/w/write.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/io/pipe/pipe.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/io/pipe/pipe.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/io/reader/reader.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/io/reader/reader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/io/stringer/person.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/io/stringer/person.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/math/math.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/math/math.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/net/DaytimeServer/dt.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/net/DaytimeServer/dt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/net/SimpleEchoServer/SimpleEchoServer.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/net/SimpleEchoServer/SimpleEchoServer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/net/ThreadedEchoServer/ThreadedEchoServer.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/net/ThreadedEchoServer/ThreadedEchoServer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/net/UDPDaytimeClient/UDPDaytimeClient.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/net/UDPDaytimeClient/UDPDaytimeClient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/net/UDPDaytimeServer/UDPDaytimeServer.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/net/UDPDaytimeServer/UDPDaytimeServer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/os/os.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/os/os.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rand/crypto/crypto.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rand/crypto/crypto.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rand/math/math.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rand/math/math.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/testing/index_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/testing/index_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/testing/web.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/testing/web.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/text/bytes/bytes.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/text/bytes/bytes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/text/regexp/regexp.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/text/regexp/regexp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/text/strconv/strconv.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/text/strconv/strconv.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/text/string/string.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/text/string/string.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/text/unicode/unicode.go" beforeDir="false" afterPath="$PROJECT_DIR$/libs/text/unicode/unicode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limiter/01/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/limiter/01/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limiter/02/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/limiter/02/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/fileLog/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/log/fileLog/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/log/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/mylog/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/log/mylog/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logrus/elastic_log.go" beforeDir="false" afterPath="$PROJECT_DIR$/logrus/elastic_log.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logrus/file_hook.go" beforeDir="false" afterPath="$PROJECT_DIR$/logrus/file_hook.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logrus/json_log.go" beforeDir="false" afterPath="$PROJECT_DIR$/logrus/json_log.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logrus/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/logrus/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro_demo/app-consul/c.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_demo/app-consul/c.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro_demo/app-consul/s.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_demo/app-consul/s.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro_demo/app/c.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_demo/app/c.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro_demo/app/s.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_demo/app/s.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monitorfile/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/monitorfile/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/udp/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/network/udp/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/udp/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/network/udp/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nsq/consumer.go" beforeDir="false" afterPath="$PROJECT_DIR$/nsq/consumer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nsq/http_send.go" beforeDir="false" afterPath="$PROJECT_DIR$/nsq/http_send.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nsq/publish.go" beforeDir="false" afterPath="$PROJECT_DIR$/nsq/publish.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pc/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/pc/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdf_preview/output/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_preview/output/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfcpu/app" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfcpu/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfcpu/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfcpu/mem.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfcpu/profile001.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfcpu/profile001.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf-app/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf-app/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf-app/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf-app/pb/message.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf/pb/message.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf-app/pb/message.proto" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf/pb/message.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf-app/pb/person.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf/pb/person.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf-app/pb/person.proto" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf/pb/person.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf-app/srv/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf/srv/client/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf-app/srv/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf/srv/server/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/01/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/01/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/01/rpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/01/rpc_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/01/rpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/01/rpc_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/01/service/HelloService.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/01/service/HelloService.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/02/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/02/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/02/rpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/02/rpc_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/02/rpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/02/rpc_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/02/service02/HelloService.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/02/service02/HelloService.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/03/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/03/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/03/rpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/03/rpc_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/03/rpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/03/rpc_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/03/service03/HelloService.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/03/service03/HelloService.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/03/service_client03/HelloServiceClient.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/03/service_client03/HelloServiceClient.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/04/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/04/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/04/rpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/04/rpc_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/04/rpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/04/rpc_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/04/service04/HelloService.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/04/service04/HelloService.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/05/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/05/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/05/rpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/05/rpc_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/05/rpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/05/rpc_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_demo/05/service05/HelloService.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-rpc/05/service05/HelloService.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/search/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/freetype/AUTHORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/freetype/CONTRIBUTORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/freetype/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/freetype/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/freetype/freetype.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/freetype/raster/geom.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/freetype/raster/paint.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/freetype/raster/raster.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/freetype/raster/stroke.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/freetype/truetype/face.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/freetype/truetype/glyph.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/freetype/truetype/hint.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/freetype/truetype/opcodes.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/freetype/truetype/truetype.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/AUTHORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/client_clone.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/client_clone_legacy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/compression.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/conn.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/conn_write.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/conn_write_legacy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/doc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/join.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/json.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/mask.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/mask_safe.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/prepared.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/proxy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/trace.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/trace_17.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/util.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/x_net_proxy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/CODE_OF_CONDUCT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/README_zh.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/captcha.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/const.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/deploy.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/firewall.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/font_bin_data.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/fonts.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/ng_audio.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/ng_img_char.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/ng_img_digit.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/random_crypto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/random_math.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/siprng.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/sounds.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/store/interface.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mojocn/base64Captcha/store/memory.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/image/AUTHORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/image/CONTRIBUTORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/image/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/image/PATENTS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/image/font/font.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/image/math/fixed/fixed.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfcpu/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/pfcpu/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/process/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf/srv/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf/srv/client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protobuf/srv/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf/srv/server/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redigo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/redigo/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regexp/01.go" beforeDir="false" afterPath="$PROJECT_DIR$/regexp/01.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/search/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssh/ssh2.go" beforeDir="false" afterPath="$PROJECT_DIR$/ssh/ssh2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync/atomic_01.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync/atomic_01.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync/cond_01.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync/cond_01.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync/cond_02.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync/cond_02.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync/mutex_01.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync/mutex_01.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync/once_01.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync/once_01.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync/pool_01.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync/pool_01.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync/pool_02.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync/pool_02.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync/rwmutex_01.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync/rwmutex_01.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync/sync_wait_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync/sync_wait_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync/sync_wait_2.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync/sync_wait_2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync/sync_wait_3.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync/sync_wait_3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync/timer.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync/timer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/bc_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/testing/bc_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/calc_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/testing/calc_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/timer/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/type/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/type/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/ApiService/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/video/ApiService/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/StreamingService/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/video/StreamingService/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/UploadService/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/video/UploadService/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/01/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/01/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws02/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiecheng/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/02/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/02/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/03/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/03/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/03/web/http_router.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/03/web/http_router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/nhttp/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/nhttp/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/nhttp/router/http_router.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/nhttp/router/http_router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zap/main1.go" beforeDir="false" afterPath="$PROJECT_DIR$/zap/main1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zap/main2.go" beforeDir="false" afterPath="$PROJECT_DIR$/zap/main2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zap/main3.go" beforeDir="false" afterPath="$PROJECT_DIR$/zap/main3.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -187,78 +171,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video/StreamingService/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video/UploadService/upload.tpl">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video/UploadService/main.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/01/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/02/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ws/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="504">
-                <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zap/main1.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zap/main2.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-562" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zap/main3.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1122" />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -276,6 +189,7 @@
       <find>github.com/lucas-clemente/quic-go</find>
       <find>github.com/lucas-clemente/</find>
       <find>auth</find>
+      <find> </find>
     </findStrings>
     <replaceStrings>
       <replace>pb</replace>
@@ -294,13 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/protobuf/pb/message_info.proto" />
-        <option value="$PROJECT_DIR$/protobuf/main.go" />
-        <option value="$PROJECT_DIR$/consul/service-discovery/server.go" />
-        <option value="$PROJECT_DIR$/consul/service-discovery/client/client.go" />
-        <option value="$PROJECT_DIR$/consul/service-discovery/server/server.go" />
-        <option value="$PROJECT_DIR$/micro_demo/pb/student.go" />
-        <option value="$PROJECT_DIR$/micro_demo/pb/student.pb.go" />
         <option value="$PROJECT_DIR$/micro_demo/studentManager.go" />
         <option value="$PROJECT_DIR$/micro_demo/pb/student.proto" />
         <option value="$PROJECT_DIR$/micro_demo/message/message.pb.go" />
@@ -345,14 +252,21 @@
         <option value="$PROJECT_DIR$/web/01/main.go" />
         <option value="$PROJECT_DIR$/ws02/main.go" />
         <option value="$PROJECT_DIR$/gin/gin.go" />
+        <option value="$APPLICATION_CONFIG_DIR$/goland64.vmoptions" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/pool/main.go" />
+        <option value="$PROJECT_DIR$/pool/v1/main.go" />
+        <option value="$PROJECT_DIR$/pool/v2/main.go" />
+        <option value="$PROJECT_DIR$/pool/v3/main.go" />
+        <option value="$PROJECT_DIR$/pool/v4/main.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1834" />
-    <option name="y" value="270" />
-    <option name="width" value="1900" />
-    <option name="height" value="810" />
+    <option name="x" value="1814" />
+    <option name="y" value="213" />
+    <option name="width" value="1910" />
+    <option name="height" value="756" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -369,11 +283,6 @@
             <path>
               <item name="libs_examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="libs_examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="libs_examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="libs_examples" type="462c0819:PsiDirectoryNode" />
-              <item name="gin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -401,11 +310,11 @@
       <recent name="$PROJECT_DIR$/go_file/demo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pool/v1" />
+      <recent name="$PROJECT_DIR$/gin" />
       <recent name="$PROJECT_DIR$/micro_demo/app-consul" />
       <recent name="$PROJECT_DIR$/micro_demo/app1" />
       <recent name="$PROJECT_DIR$/micro_demo/pb" />
-      <recent name="$PROJECT_DIR$/consul/service-discovery/server" />
-      <recent name="$PROJECT_DIR$/logrus" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -446,18 +355,18 @@
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20886752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22489317" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32912722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287827" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32912722" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.37118822" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31968147" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -465,18 +374,18 @@
       <window_info anchor="right" id="make" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20886752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22222222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32912722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287827" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32912722" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.37118822" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31968147" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -489,48 +398,6 @@
     <proxy>https://goproxy.io,direct</proxy>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/micro_demo/app/s.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro_demo/pb/helloworld.proto">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro_demo/pb/helloworld.pb.micro.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro_demo/app-consul/c.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro_demo/app-consul/s.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdf_preview/htm/index_cn.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdf_preview/htm/index_en.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/net/UDPDaytimeClient/UDPDaytimeClient.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro_demo/pb/helloworld.pb.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nsq/consumer.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/nsq/http_send.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -563,9 +430,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pfcpu/profile001.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pfcpu/profile001.svg" />
     <entry file="file://$PROJECT_DIR$/pc/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -678,6 +543,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ws02/main.go" />
+    <entry file="file://$PROJECT_DIR$/xiecheng/main.go" />
+    <entry file="file://$PROJECT_DIR$/gin/gin.go" />
     <entry file="file://$PROJECT_DIR$/video/StreamingService/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -693,39 +561,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/01/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state relative-caret-position="812">
           <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/02/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="672">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ws02/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiecheng/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/ws/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="504">
+          <first_editor relative-caret-position="420">
             <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
           </first_editor>
           <second_editor>
@@ -738,22 +590,77 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/zap/main2.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-562" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/zap/main3.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1122" />
+        <state relative-caret-position="1344">
+          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gin/gin.go">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/goland64.vmoptions">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        <state relative-caret-position="364">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logrus/elastic_log.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logrus/file_hook.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logrus/json_log.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pool/v1/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pool/v4/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="48" column="6" selection-start-line="47" selection-start-column="17" selection-end-line="48" selection-end-column="6" />
           <folding>
-            <element signature="e#14#77#0" expanded="true" />
+            <element signature="e#14#110#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pool/v3/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+          <folding>
+            <element signature="e#14#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pool/v2/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
         </state>
       </provider>
     </entry>

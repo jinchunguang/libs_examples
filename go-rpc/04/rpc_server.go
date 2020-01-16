@@ -21,7 +21,6 @@ type clientRequest struct {
 	Id     uint64         `json:"id"`
 }
 
-
 func main() {
 
 	// 将HelloService类型的对象注册为一个RPC服务
@@ -35,7 +34,7 @@ func main() {
 		log.Fatal("ListenTCP error:", err)
 	}
 
-	for   {
+	for {
 		conn, err := listener.Accept()
 		if err != nil {
 			log.Fatal("Accept error:", err)

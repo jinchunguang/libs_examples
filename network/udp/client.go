@@ -20,7 +20,7 @@ func main() {
 
 	// 发送数据
 	len, err := udpConn.Write([]byte("上报日志文件:xxxxxx\r\n"))
-	if err != nil{
+	if err != nil {
 		return
 	}
 	fmt.Println("client write len:", len)

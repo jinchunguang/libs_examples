@@ -20,14 +20,14 @@ func main() {
 		log.Fatal("ListenTCP error:", err)
 	}
 
-	for   {
+	for {
 		conn, err := listener.Accept()
 		if err != nil {
 			log.Fatal("Accept error:", err)
 		}
 
 		// 在该TCP链接上为对方提供RPC服务
-		go  rpc.ServeConn(conn)
+		go rpc.ServeConn(conn)
 
 		defer conn.Close()
 	}

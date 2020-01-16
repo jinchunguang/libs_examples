@@ -22,12 +22,12 @@ func main() {
 		O_SYNC   int = syscall.O_SYNC   // 以同步I/O方式打开文件，直接写入硬盘.
 		O_TRUNC  int = syscall.O_TRUNC  // 如果可以的话，当打开文件时先清空文件
 	*/
-	fileObj,err := os.OpenFile(name,os.O_RDWR|os.O_CREATE|os.O_APPEND,0644)
+	fileObj, err := os.OpenFile(name, os.O_RDWR|os.O_CREATE|os.O_APPEND, 0644)
 	if err != nil {
 		fmt.Println(err.Error())
 		os.Exit(2)
 	}
-	if  _,err := io.WriteString(fileObj,content);err == nil {
-		fmt.Println("写入文件成功:",content)
+	if _, err := io.WriteString(fileObj, content); err == nil {
+		fmt.Println("写入文件成功:", content)
 	}
 }

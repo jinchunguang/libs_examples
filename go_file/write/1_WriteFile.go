@@ -1,4 +1,5 @@
 package main
+
 import (
 	"fmt"
 	"io/ioutil"
@@ -9,8 +10,8 @@ import (
 func main() {
 	name := "./test.txt"
 	content := "Hello, World!"
-	data :=  []byte(content)
-	if ioutil.WriteFile(name,data,0644) == nil {
-		fmt.Println("写入文件成功:",content)
+	data := []byte(content)
+	if ioutil.WriteFile(name, data, 0644) == nil {
+		fmt.Println("写入文件成功:", content)
 	}
 }

@@ -1,20 +1,20 @@
 package main
 
 import (
-    "fmt"
-    "strings"
+	"fmt"
+	"strings"
 
-    "github.com/json-iterator/go"
+	"github.com/json-iterator/go"
 )
 
 func main() {
 
-    // val := []byte(`{"ID":1,"Name":"Reds","Colors":["Crimson","Red","Ruby","Maroon"]}`)
-    // str := jsoniter.Get(val, "Colors", 0).ToString()
-    // fmt.Println(str)
+	// val := []byte(`{"ID":1,"Name":"Reds","Colors":["Crimson","Red","Ruby","Maroon"]}`)
+	// str := jsoniter.Get(val, "Colors", 0).ToString()
+	// fmt.Println(str)
 
-    json := jsoniter.ConfigCompatibleWithStandardLibrary
-    reader := strings.NewReader(`{
+	json := jsoniter.ConfigCompatibleWithStandardLibrary
+	reader := strings.NewReader(`{
   "branch": "beta",
   "change_log": "add the rows{10}",
   "channel": "fros",
@@ -60,12 +60,12 @@ func main() {
   "size": 38966875,
   "status": 3
 }`)
-    decoder := json.NewDecoder(reader)
-    params := make(map[string]interface{})
-    err := decoder.Decode(&params)
-    if err != nil {
-        fmt.Println(err)
-    } else {
-        fmt.Printf("%+v\n", params["note"])
-    }
+	decoder := json.NewDecoder(reader)
+	params := make(map[string]interface{})
+	err := decoder.Decode(&params)
+	if err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Printf("%+v\n", params["note"])
+	}
 }

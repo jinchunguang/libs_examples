@@ -12,6 +12,3 @@ func TestAbs(t *testing.T) {
 		t.Errorf("Abs(-1) = %v; want 1", got)
 	}
 }
-
-
-

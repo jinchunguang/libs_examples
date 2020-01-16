@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"github.com/mojocn/base64Captcha"
 )
+
 func main() {
 	//config struct for digits
 	//数字验证码配置
@@ -24,8 +25,8 @@ func main() {
 	//config struct for Character
 	//字符,公式,验证码配置
 	var configC = base64Captcha.ConfigCharacter{
-		Height:             60,
-		Width:              240,
+		Height: 60,
+		Width:  240,
 		//const CaptchaModeNumber:数字,CaptchaModeAlphabet:字母,CaptchaModeArithmetic:算术,CaptchaModeNumberAlphabet:数字字母混合.
 		Mode:               base64Captcha.CaptchaModeNumber,
 		ComplexOfNoiseText: base64Captcha.CaptchaComplexLower,
