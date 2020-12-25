@@ -20,7 +20,7 @@ atomic包（sync/atomic）提供了底层的原子级内存操作。
 	func AddT(addr *T, delta T) (new T)：增减，返回新的值；
 	func SwapT(addr *T, new T) (old T)：交换，并返回旧值；
 	func CompareAndSwapT(addr *T, old, new T) (swapped bool)：比较addr中保存的值是否与old相等，若相等则替换为新值，并返回true；否则，直接返回false。
-	 */
+*/
 func main() {
 
 	// 增加或减少 Add
@@ -29,7 +29,7 @@ func main() {
 	var a uint32 = 10
 	atomic.AddUint32(&a, 10)
 	fmt.Println(a)
-	atomic.AddUint32(&a, ^uint32(2 - 1)) // 等价于 b -= 10
+	atomic.AddUint32(&a, ^uint32(2-1)) // 等价于 b -= 10
 	fmt.Println(a)
 
 	// 比较并交换 CAS
@@ -49,11 +49,8 @@ func main() {
 	}
 	fmt.Println(money)
 
-
-
 }
 
 func incNumAtomic(money *int64) {
 
 }
-

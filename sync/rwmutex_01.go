@@ -23,13 +23,13 @@ RWMutex类型的锁也和线程无关，可以由不同的线程加读取锁/写
 	// 读模式
 	rwx.RLock() // 加锁，多路只读
 	rwx.RUnlock()// 释放锁
- */
+*/
 
 func main() {
 
 	var wg sync.WaitGroup
 	var rwx sync.RWMutex
-	for i:=0;i<5;i++ {
+	for i := 0; i < 5; i++ {
 
 		// 读数据,多路只读
 		wg.Add(1)
@@ -37,8 +37,8 @@ func main() {
 
 			rwx.RLock()
 
-			fmt.Println("读数据库...",i)
-			<-time.After(2*time.Second)
+			fmt.Println("读数据库...", i)
+			<-time.After(2 * time.Second)
 
 			rwx.RUnlock()
 			defer wg.Done()
@@ -50,8 +50,8 @@ func main() {
 
 			rwx.Lock()
 
-			fmt.Println("写数据库...",i)
-			<-time.After(2*time.Second)
+			fmt.Println("写数据库...", i)
+			<-time.After(2 * time.Second)
 
 			rwx.Unlock()
 			defer wg.Done()

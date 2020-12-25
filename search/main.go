@@ -26,5 +26,5 @@ func main() {
 	searcher.FlushIndex()
 
 	// 搜索输出格式见types.SearchResponse结构体
-	log.Print(searcher.Search(types.SearchRequest{Text:"百度中国"}))
+	log.Print(searcher.Search(types.SearchRequest{Text: "百度中国"}))
 }

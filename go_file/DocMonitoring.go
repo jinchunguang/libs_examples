@@ -20,7 +20,7 @@ type DocMonitor struct {
 func (dm *DocMonitor) Read() {
 	fmt.Println("Read start-up success")
 
-	fileObj, err := os.Open(dm.LogPath);
+	fileObj, err := os.Open(dm.LogPath)
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(2)
@@ -35,7 +35,7 @@ func (dm *DocMonitor) Read() {
 		if result, err := buf.ReadString('\n'); err == nil {
 			if err == io.EOF {
 				time.Sleep(100 * time.Millisecond)
-				continue;
+				continue
 			} else {
 				dm.ReadChan <- result
 			}
@@ -47,7 +47,7 @@ func (dm *DocMonitor) Read() {
 // 内容处理逻辑
 func (dm *DocMonitor) Handle() {
 	fmt.Println("Handle start-up success")
-	for   {
+	for {
 		content := <-dm.ReadChan
 		// 内容处理逻辑
 		dm.WriteChan <- strings.ToLower(content)
@@ -61,16 +61,16 @@ func (dm *DocMonitor) Write() {
 
 	// 将处理后的结果写入文件
 	name := "./Write.txt"
-	fileObj,err := os.OpenFile(name,os.O_RDWR|os.O_CREATE|os.O_APPEND,0644)
+	fileObj, err := os.OpenFile(name, os.O_RDWR|os.O_CREATE|os.O_APPEND, 0644)
 	if err != nil {
 		fmt.Println(err.Error())
 		os.Exit(2)
 	}
 
-	for   {
+	for {
 		content := <-dm.WriteChan
-		if  _,err := io.WriteString(fileObj,content);err == nil {
-			fmt.Println("写入成功:",content)
+		if _, err := io.WriteString(fileObj, content); err == nil {
+			fmt.Println("写入成功:", content)
 		}
 	}
 }
@@ -79,14 +79,14 @@ func (dm *DocMonitor) Write() {
 // go run readlog.go /usr/local/nginx/logs/access.log
 func main() {
 
-	args:=os.Args
+	args := os.Args
 
 	//file := "/usr/local/nginx/logs/access.log"
 	file := args[1]
 
 	dm := &DocMonitor{
-		LogPath:  file,
-		ReadChan: make(chan string, 1024),
+		LogPath:   file,
+		ReadChan:  make(chan string, 1024),
 		WriteChan: make(chan string, 1024),
 	}
 
@@ -94,11 +94,8 @@ func main() {
 	go dm.Handle()
 	go dm.Write()
 
-
 	for {
 		time.Sleep(time.Second)
 	}
 
 }
-
-

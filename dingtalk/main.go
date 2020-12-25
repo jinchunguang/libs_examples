@@ -21,7 +21,6 @@ var textJsonStr, linkJsonStr, markdownJsonStr, actionCardJsonStr, actionCardBtnJ
 */
 func main() {
 
-
 	// text类型
 	textJsonStr = `{
         "msgtype": "text", 

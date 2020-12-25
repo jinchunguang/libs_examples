@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"github.com/Unknwon/goconfig"
-	)
+)
 
-func main()  {
+func main() {
 	// 读取文件
 	cfg, _ := goconfig.LoadConfigFile("conf.ini")
 	// fmt.Println(cfg)

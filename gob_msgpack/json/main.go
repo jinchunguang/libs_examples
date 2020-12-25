@@ -1,6 +1,6 @@
 package json
 
-import(
+import (
 	"encoding/json"
 	"fmt"
 )
@@ -8,6 +8,7 @@ import(
 type s struct {
 	data map[string]interface{}
 }
+
 func jsonDemo() {
 
 	var s1 = s{
@@ -33,7 +34,7 @@ func jsonDemo() {
 	}
 }
 
-func main()  {
+func main() {
 
 	jsonDemo()
 }

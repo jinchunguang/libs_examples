@@ -8,7 +8,6 @@ import (
 // logrus提供了New()函数来创建一个logrus的实例。
 // 项目中，可以创建任意数量的logrus实例。
 
-
 func main() {
 	var log = logrus.New()
 	// 为当前logrus实例设置消息的输出，同样地，
@@ -28,7 +27,6 @@ func main() {
 	logrus.Info("自定义的信息")
 	logrus.Warn("警告信息")
 	logrus.Error("一般错误信息")
-	logrus.Fatal("严重错误信息")   //log之后会调用os.Exit(1)
-	logrus.Panic("系统级别错误")   //log之后会panic()
+	logrus.Fatal("严重错误信息") //log之后会调用os.Exit(1)
+	logrus.Panic("系统级别错误") //log之后会panic()
 }
-

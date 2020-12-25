@@ -4,6 +4,7 @@ import (
 	"golang.org/x/time/rate"
 	"net/http"
 )
+
 var limiter = rate.NewLimiter(2, 5)
 
 func limit(next http.Handler) http.Handler {
@@ -15,7 +16,6 @@ func limit(next http.Handler) http.Handler {
 		next.ServeHTTP(w, r)
 	})
 }
-
 
 func main() {
 	mux := http.NewServeMux()

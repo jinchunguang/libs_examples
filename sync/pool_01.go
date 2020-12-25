@@ -7,7 +7,7 @@ import (
 
 func main() {
 	// 建立对象
-	var pool = &sync.Pool{New:func()interface{}{return "hello php!"}}
+	var pool = &sync.Pool{New: func() interface{} { return "hello php!" }}
 	// 准备放入的字符串
 	val := "Hello,World!"
 	// 放入

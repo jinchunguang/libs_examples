@@ -38,7 +38,7 @@ func init() {
 	// 闲置连接数
 	MysqlDb.SetMaxIdleConns(20)
 	// 最大连接周期
-	MysqlDb.SetConnMaxLifetime(100*time.Second)
+	MysqlDb.SetConnMaxLifetime(100 * time.Second)
 
 	if MysqlDbErr = MysqlDb.Ping(); nil != MysqlDbErr {
 		panic("数据库链接失败: " + MysqlDbErr.Error())

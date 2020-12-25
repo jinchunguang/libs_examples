@@ -8,7 +8,7 @@ import (
 )
 
 // 生产者，消费者模型
-func main()  {
+func main() {
 	c := sync.NewCond(&sync.Mutex{})
 	queueList := make(chan int, 10)
 
@@ -30,7 +30,7 @@ func main()  {
 				c.Signal()
 			}
 			c.L.Unlock()
-			time.Sleep(1*time.Second)
+			time.Sleep(1 * time.Second)
 		}
 	}()
 
@@ -43,7 +43,7 @@ func main()  {
 				c.Wait()
 			}
 
-			num := <- queueList
+			num := <-queueList
 
 			fmt.Println("consumer:", num)
 
@@ -56,6 +56,6 @@ func main()  {
 	}()
 
 	for {
-		;
+
 	}
 }

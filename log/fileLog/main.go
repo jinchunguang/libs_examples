@@ -6,23 +6,23 @@
 package main
 
 import (
-    "fmt"
-    "log"
-    "os"
+	"fmt"
+	"log"
+	"os"
 )
 
 func init() {
-    logFile, err := os.OpenFile("./biz.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
-    if err != nil {
-        fmt.Println("open log file failed, err:", err)
-        return
-    }
-    log.SetOutput(logFile)
-    log.SetPrefix("[biz] ")
-    log.SetFlags(log.Llongfile | log.Lmicroseconds | log.Ldate)
+	logFile, err := os.OpenFile("./biz.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
+	if err != nil {
+		fmt.Println("open log file failed, err:", err)
+		return
+	}
+	log.SetOutput(logFile)
+	log.SetPrefix("[biz] ")
+	log.SetFlags(log.Llongfile | log.Lmicroseconds | log.Ldate)
 }
 
-func main()  {
-    log.Println("这是一条文件日志。")
-    log.Printf("LocalInfo %s","这是一条文件日志。")
+func main() {
+	log.Println("这是一条文件日志。")
+	log.Printf("LocalInfo %s", "这是一条文件日志。")
 }

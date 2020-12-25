@@ -21,7 +21,6 @@ type clientRequest struct {
 	Id     uint64         `json:"id"`
 }
 
-
 func main() {
 
 	rpc.RegisterName("HelloService", new(service05.HelloService))

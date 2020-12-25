@@ -7,25 +7,26 @@ import (
 )
 
 var cond = sync.NewCond(&sync.Mutex{})
+
 func main() {
 
-	houseRisePrice:=true
+	houseRisePrice := true
 
 	go func() {
-		for   {
-			time.Sleep(3*time.Second)
+		for {
+			time.Sleep(3 * time.Second)
 			cond.L.Lock()
 
 			// 给监听者发送信号
 			// cond.Broadcast 发送通知，唤醒所有的线程
 			// cond.Signal 发送广播，唤醒一个线程（如果存在）
-			houseRisePrice=false
+			houseRisePrice = false
 			cond.Signal()
 			cond.L.Unlock()
 		}
 	}()
 
-	for   {
+	for {
 		go func() {
 			cond.L.Lock()
 			if houseRisePrice {
@@ -38,9 +39,8 @@ func main() {
 			fmt.Println("谨慎买房")
 			cond.L.Unlock()
 		}()
-		time.Sleep(1*time.Second)
+		time.Sleep(1 * time.Second)
 	}
-
 
 	fmt.Println("main over!")
 

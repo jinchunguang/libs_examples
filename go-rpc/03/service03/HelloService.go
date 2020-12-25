@@ -2,7 +2,7 @@ package service03
 
 import "net/rpc"
 
-type HelloService struct {}
+type HelloService struct{}
 
 // 1 服务的名字
 const HelloServiceName = "HelloService"

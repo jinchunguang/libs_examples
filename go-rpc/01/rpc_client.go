@@ -8,7 +8,6 @@ import (
 
 func main() {
 
-
 	// 拨号RPC服务
 	client, err := rpc.Dial("tcp", "localhost:1234")
 	if err != nil {
