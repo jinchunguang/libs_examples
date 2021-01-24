@@ -20,7 +20,6 @@ func HandleError(err error, why string) {
 
 func GetImg(url string)  {
 	pageStr := GetPageStr(url)
-	//fmt.Println(pageStr)
 	re := regexp.MustCompile(reImg)
 	results := re.FindAllStringSubmatch(pageStr, -1)
 	fmt.Printf("找到%d条结果:\n",len(results))
@@ -33,6 +32,9 @@ func GetImg(url string)  {
 var (
 	// 图片
 	reImg = `"(https?://[^"]+?(\.((jpg)|(jpeg)|(png)|(gif)|(ico))))"`
+
+	//
+	downDir =``
 )
 
 //根据url获取页面内容
